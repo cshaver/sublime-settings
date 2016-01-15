@@ -1,0 +1,4 @@
+ {
+   "filename_filter": "\\.(css|js|sass|less|scss|yml|erb|html|png|jpg|jpeg|txt|rb)$",
+   "build_on_save": 1
+ }

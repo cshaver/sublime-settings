@@ -1,0 +1,52 @@
+2014-07-23 18:24:24
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 189, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 606, in do_ls
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 515, in retrlines
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 454, in transfercmd
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 412, in ntransfercmd
+  File "X/socket.py", line 424, in create_connection
+  File "X/socket.py", line 415, in create_connection
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 113, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 332, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 480, in do_operation
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 34, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 469, in listr
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 34, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 432, in list
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 635, in ls
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 608, in ls
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 357, in handle_ftp_error
+SFTP.sftp.errors.ConnectionError: Connection refused
+2014-07-23 19:06:09
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 189, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 606, in do_ls
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 515, in retrlines
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 454, in transfercmd
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftplib2.py", line 412, in ntransfercmd
+  File "X/socket.py", line 424, in create_connection
+  File "X/socket.py", line 415, in create_connection
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 15, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 113, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 332, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 480, in do_operation
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 34, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 469, in listr
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 34, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 432, in list
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 635, in ls
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 608, in ls
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/ftp_transport.py", line 357, in handle_ftp_error
+SFTP.sftp.errors.ConnectionError: Connection refused
