@@ -1,0 +1,6 @@
+.SublimeREPLHistory
+*.cache
+*.last-run
+*.log
+*.*-ca-*
+*History.sublime-settings
