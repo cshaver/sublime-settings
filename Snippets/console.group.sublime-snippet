@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+console.group('${1}')
+${0:console.groupEnd()}
+]]></content>
+  <tabTrigger>group</tabTrigger>
+  <scope>source.js,source.ts</scope>
+  <description>console.group</description>
+</snippet>

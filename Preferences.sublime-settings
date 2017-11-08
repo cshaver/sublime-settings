@@ -1,36 +1,38 @@
 {
-	"auto_find_in_selection": true,
-	"binary_file_patterns":
+	"color_scheme": "Packages/User/SublimeLinter/Material Spacegray (SL).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"extra_file_exclude_patterns":
 	[
-		"cs/ireserve/",
-		"public_html/",
-		"dist/",
-		"node_modules/",
-		"*.log",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
 		"*.psd",
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
-		"*.dds",
-		"*.ico",
-		"*.eot",
-		"*.pdf",
-		"*.swf",
-		"*.jar",
-		"*.zip"
+		"*.db",
+		"*.sublime-workspace"
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Twilight (SL).tmTheme",
-	"detect_slow_plugins": false,
+	"extra_folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
 	"file_exclude_patterns":
 	[
-		"*.scssc",
-		"*.cache",
-		".DS_Store",
-		"*.pyc",
-		"*.sqlite3",
 		"*.pyc",
 		"*.pyo",
 		"*.exe",
@@ -51,24 +53,27 @@
 		"*.psd",
 		"*.db",
 		"*.sublime-workspace",
-		"*.sublime-project"
+		"/Users/cshaver/Development/embracebook/build/.DS_Store",
+		"/Users/cshaver/Development/embracebook/src/.DS_Store",
+		"/Users/cshaver/Development/embracebook/.DS_Store"
 	],
 	"folder_exclude_patterns":
 	[
-		"*cache",
 		".svn",
 		".git",
 		".hg",
-		"_archived",
-		"CVS"
+		"CVS",
+		"/Users/cshaver/Development/embracebook/node_modules"
 	],
-	"font_face": "SourceCodePro-Light",
-	"font_size": 14,
+	"font_face": "Source Code Pro",
+	"font_size": 15,
 	"ignored_packages":
 	[
+		"Vintage"
 	],
+	"save_on_focus_lost": true,
+	"show_full_path": true,
 	"tab_size": 2,
-	"theme": "Brogrammer.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"word_wrap": false
+	"theme": "Material Spacegray.sublime-theme",
+	"trim_trailing_white_space_on_save": true
 }
