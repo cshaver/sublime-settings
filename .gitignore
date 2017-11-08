@@ -1,0 +1,4 @@
+*.crt
+*.cache
+*.last-run
+*.merged-ca-bundle
